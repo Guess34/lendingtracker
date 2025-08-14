@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>net.runelite.client.plugins</groupId>
+  <artifactId>lendingtracker</artifactId>
+  <version>1.0.0</version>
+  <packaging>jar</packaging>
+
+  <name>Lending Tracker</name>
+  <description>Tracks clan lending/borrowing safely.</description>
+
+  <parent>
+    <groupId>net.runelite</groupId>
+    <artifactId>runelite-parent</artifactId>
+    <version>1.11.14-SNAPSHOT</version>
+  </parent>
+
+  <properties>
+    <maven.compiler.release>17</maven.compiler.release>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>net.runelite</groupId>
+      <artifactId>client</artifactId>
+      <version>${project.parent.version}</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>
